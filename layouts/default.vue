@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app light>
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -89,6 +89,7 @@
 </template>
 
 <script>
+import { mdiAccountBox } from '@mdi/js'
 export default {
   data () {
     return {
@@ -97,7 +98,7 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-chart-bubble',
+          icon: mdiAccountBox,
           title: 'Rick and Morty',
           to: '/'
         }

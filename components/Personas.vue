@@ -25,12 +25,7 @@
 <script>
 export default {
   name: 'App',
-  /*
-  async asyncData ({ app }) {
-    const { data: { message: dog } } = await app.$axios.get('/pizzas.json')
-    return { dog }
-  }
-  */
+
   data () {
     return {
       personajes: [
